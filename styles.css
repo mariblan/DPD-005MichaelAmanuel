@@ -1,0 +1,205 @@
+nav {
+    background-color: rgb(39, 38, 33);
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    width: 100%;
+    height: 4%;
+    padding: 0%;
+    display: flex;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+  
+  nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:white;
+  }
+
+  li a {
+    display: black;
+    color: white;
+    text-align: center;
+    padding: 38px 36px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #1e999f;
+    border-radius: 8px;
+  }
+  
+  p {
+    color:rgb(2, 27, 37);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  footer {
+    width: 100%;
+    height: 220px;
+    font-style: bold;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+
+    
+  }
+
+
+
+  nav-item a:hover {
+    color:#ffffff !important;
+}
+
+nav-item a:active {
+    color:#00aeff !important;
+}
+
+button {
+  background-color: #1e999f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-left: 0%;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+button:hover {
+  background-color: #eb8213;
+  color: white;
+}
+
+section > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section {
+    background-color: rgb(125, 174, 174);
+    width: 300px;
+    align-items: center;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 8px;
+    display: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    margin-right: 10px;
+    margin-left: 0%;
+  }
+  .se {
+    background-color: rgb(125, 174, 174);
+    width: 300px;
+    align-items: center;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 8px;
+    display: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 0%;
+  }
+
+  .se3 {
+    background-color: rgb(125, 174, 174);
+    width: 300px;
+    align-items: center;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 8px;
+    display: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    margin-right: 10px;
+    margin-left: 0%;
+  }
+
+  
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #20033c;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  margin-top: -370px;
+  margin-bottom: 400px;
+  margin-right: 100px;
+  margin-left: 50%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  flex-direction: column;
+  
+}
+.search {
+  border-radius: 5px;
+  margin: 2% 6%;
+  width: 100%;
+}
+
+.map {
+  border-radius: 8px;
+  
+  align-items: center;
+  width: 40%;
+  flex-direction: row;
+}
+
+.section-a {
+ 
+  width: 65px;
+  height: 720px;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 8px;
+}
+
+
+
